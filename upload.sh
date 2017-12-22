@@ -17,5 +17,5 @@ git add .
 git commit -am ${NewVersionNumber}
 git tag ${VersionString}
 git push  --tags
-cd ~/.cocoapods/repos/qshreaderspec && git pull origin master && cd - && pod repo push qshreaderspec QSHAppConfig.podspec --verbose --allow-warnings
+cd ~/.cocoapods/repos/qshpublicspecs && git pull origin master && cd - && pod repo push qshpublicspecs QSHAppConfig.podspec --verbose --allow-warnings
 
