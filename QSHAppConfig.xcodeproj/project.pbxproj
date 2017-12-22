@@ -12,7 +12,6 @@
 		B2BB815E1FECFAC700A3F857 /* AppStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BB81591FECFAC600A3F857 /* AppStyle.swift */; };
 		B2BB815F1FECFAC700A3F857 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BB815A1FECFAC600A3F857 /* Config.swift */; };
 		B2BB81601FECFAC700A3F857 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BB815B1FECFAC700A3F857 /* Theme.swift */; };
-		B2BB81611FECFAC700A3F857 /* BookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BB815C1FECFAC700A3F857 /* BookManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +22,6 @@
 		B2BB81591FECFAC600A3F857 /* AppStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppStyle.swift; path = QSHAppConfig/AppStyle.swift; sourceTree = "<group>"; };
 		B2BB815A1FECFAC600A3F857 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Config.swift; path = QSHAppConfig/Config.swift; sourceTree = "<group>"; };
 		B2BB815B1FECFAC700A3F857 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Theme.swift; path = QSHAppConfig/Theme.swift; sourceTree = "<group>"; };
-		B2BB815C1FECFAC700A3F857 /* BookManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BookManager.swift; path = QSHAppConfig/BookManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				B2BB81591FECFAC600A3F857 /* AppStyle.swift */,
-				B2BB815C1FECFAC700A3F857 /* BookManager.swift */,
 				B2BB815A1FECFAC600A3F857 /* Config.swift */,
 				B2BB81581FECFAC600A3F857 /* Reader.swift */,
 				B2BB815B1FECFAC700A3F857 /* Theme.swift */,
@@ -150,7 +147,6 @@
 				B2BB815D1FECFAC700A3F857 /* Reader.swift in Sources */,
 				B2BB81601FECFAC700A3F857 /* Theme.swift in Sources */,
 				B2BB815E1FECFAC700A3F857 /* AppStyle.swift in Sources */,
-				B2BB81611FECFAC700A3F857 /* BookManager.swift in Sources */,
 				B2BB815F1FECFAC700A3F857 /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
