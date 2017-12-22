@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		B2BB81481FECF80200A3F857 /* QSHAppConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = B2BB81461FECF80200A3F857 /* QSHAppConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B2BB81531FECF89E00A3F857 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BB814E1FECF89E00A3F857 /* Config.swift */; };
-		B2BB81541FECF89E00A3F857 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BB814F1FECF89E00A3F857 /* Theme.swift */; };
-		B2BB81561FECF89E00A3F857 /* AppStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BB81511FECF89E00A3F857 /* AppStyle.swift */; };
-		B2BB81571FECF89E00A3F857 /* Reader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BB81521FECF89E00A3F857 /* Reader.swift */; };
+		B2BB815D1FECFAC700A3F857 /* Reader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BB81581FECFAC600A3F857 /* Reader.swift */; };
+		B2BB815E1FECFAC700A3F857 /* AppStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BB81591FECFAC600A3F857 /* AppStyle.swift */; };
+		B2BB815F1FECFAC700A3F857 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BB815A1FECFAC600A3F857 /* Config.swift */; };
+		B2BB81601FECFAC700A3F857 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BB815B1FECFAC700A3F857 /* Theme.swift */; };
+		B2BB81611FECFAC700A3F857 /* BookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BB815C1FECFAC700A3F857 /* BookManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B2BB81431FECF80200A3F857 /* QSHAppConfig.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QSHAppConfig.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2BB81461FECF80200A3F857 /* QSHAppConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QSHAppConfig.h; sourceTree = "<group>"; };
 		B2BB81471FECF80200A3F857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B2BB814E1FECF89E00A3F857 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
-		B2BB814F1FECF89E00A3F857 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
-		B2BB81511FECF89E00A3F857 /* AppStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStyle.swift; sourceTree = "<group>"; };
-		B2BB81521FECF89E00A3F857 /* Reader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reader.swift; sourceTree = "<group>"; };
+		B2BB81581FECFAC600A3F857 /* Reader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reader.swift; path = QSHAppConfig/Reader.swift; sourceTree = "<group>"; };
+		B2BB81591FECFAC600A3F857 /* AppStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppStyle.swift; path = QSHAppConfig/AppStyle.swift; sourceTree = "<group>"; };
+		B2BB815A1FECFAC600A3F857 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Config.swift; path = QSHAppConfig/Config.swift; sourceTree = "<group>"; };
+		B2BB815B1FECFAC700A3F857 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Theme.swift; path = QSHAppConfig/Theme.swift; sourceTree = "<group>"; };
+		B2BB815C1FECFAC700A3F857 /* BookManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BookManager.swift; path = QSHAppConfig/BookManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +56,11 @@
 		B2BB81451FECF80200A3F857 /* QSHAppConfig */ = {
 			isa = PBXGroup;
 			children = (
-				B2BB81511FECF89E00A3F857 /* AppStyle.swift */,
-				B2BB814E1FECF89E00A3F857 /* Config.swift */,
-				B2BB81521FECF89E00A3F857 /* Reader.swift */,
-				B2BB814F1FECF89E00A3F857 /* Theme.swift */,
+				B2BB81591FECFAC600A3F857 /* AppStyle.swift */,
+				B2BB815C1FECFAC700A3F857 /* BookManager.swift */,
+				B2BB815A1FECFAC600A3F857 /* Config.swift */,
+				B2BB81581FECFAC600A3F857 /* Reader.swift */,
+				B2BB815B1FECFAC700A3F857 /* Theme.swift */,
 				B2BB81461FECF80200A3F857 /* QSHAppConfig.h */,
 				B2BB81471FECF80200A3F857 /* Info.plist */,
 			);
@@ -107,6 +110,7 @@
 				TargetAttributes = {
 					B2BB81421FECF80200A3F857 = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -143,10 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2BB81531FECF89E00A3F857 /* Config.swift in Sources */,
-				B2BB81571FECF89E00A3F857 /* Reader.swift in Sources */,
-				B2BB81541FECF89E00A3F857 /* Theme.swift in Sources */,
-				B2BB81561FECF89E00A3F857 /* AppStyle.swift in Sources */,
+				B2BB815D1FECFAC700A3F857 /* Reader.swift in Sources */,
+				B2BB81601FECFAC700A3F857 /* Theme.swift in Sources */,
+				B2BB815E1FECFAC700A3F857 /* AppStyle.swift in Sources */,
+				B2BB81611FECFAC700A3F857 /* BookManager.swift in Sources */,
+				B2BB815F1FECFAC700A3F857 /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +274,7 @@
 		B2BB814C1FECF80200A3F857 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -282,6 +288,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = QSH.QSHAppConfig;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -290,6 +297,7 @@
 		B2BB814D1FECF80200A3F857 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;

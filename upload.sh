@@ -16,6 +16,6 @@ echo "current version is ${VersionNumber}, new version is ${NewVersionNumber}"
 git add .
 git commit -am ${NewVersionNumber}
 git tag ${VersionString}
-git push origin master --tags
+git push  --tags
 cd ~/.cocoapods/repos/qshreaderspec && git pull origin master && cd - && pod repo push qshreaderspec QSHAppConfig.podspec --verbose --allow-warnings
 
