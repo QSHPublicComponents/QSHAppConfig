@@ -33,7 +33,7 @@ fileprivate func >= <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
   }
 }
 //MARK:- API
-let BASEURL = "http://api.zhuishushenqi.com"
+public let BASEURL = "http://api.zhuishushenqi.com"
 let IMAGE_BASEURL = "http://statics.zhuishushenqi.com"
 let CHAPTERURL = "http://chapter2.zhuishushenqi.com/chapter"
 let BOOKSHELF =  "user/bookshelf"
@@ -81,7 +81,7 @@ let PostLink = "PostLink"
 let SHOW_RECOMMEND = "ShowRecomend"
 let BOOKSHELF_REFRESH = "BookShelfRefresh"
 
-func QSLog<T>(_ message:T,fileName:String = #file,lineName:Int = #line,funcName:String = #function){
+public func QSLog<T>(_ message:T,fileName:String = #file,lineName:Int = #line,funcName:String = #function){
     #if DEBUG
         print("QSLog:\((fileName as NSString).lastPathComponent)[\(lineName)]\(funcName):\n\(message)\n")
     #endif

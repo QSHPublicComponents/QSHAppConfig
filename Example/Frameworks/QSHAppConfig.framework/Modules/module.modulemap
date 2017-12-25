@@ -1,0 +1,11 @@
+framework module QSHAppConfig {
+  umbrella header "QSHAppConfig.h"
+
+  export *
+  module * { export * }
+}
+
+module QSHAppConfig.Swift {
+    header "QSHAppConfig-Swift.h"
+    requires objc
+}

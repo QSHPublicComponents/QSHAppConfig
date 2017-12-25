@@ -11,9 +11,9 @@ import Foundation
 let nightKey = "light.key"
 let fontSizeKey = "fontSize.key"
 
-struct AppStyle {
+public struct AppStyle {
     
-    static var shared = AppStyle()
+    public static var shared = AppStyle()
     
     var readFontSize:Int = UserDefaults.standard.integer(forKey: fontSizeKey){
         didSet{

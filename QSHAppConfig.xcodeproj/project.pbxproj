@@ -11,6 +11,10 @@
 		B2582F281FF0F71100D0FA6A /* AppStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2582F241FF0F71100D0FA6A /* AppStyle.swift */; };
 		B2582F291FF0F71100D0FA6A /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2582F251FF0F71100D0FA6A /* Config.swift */; };
 		B2582F2A1FF0F71100D0FA6A /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2582F261FF0F71100D0FA6A /* Theme.swift */; };
+		B2582F4F1FF0F71100D0FA6A /* AppStyle.swift in Headers */ = {isa = PBXBuildFile; fileRef = B2582F241FF0F71100D0FA6A /* AppStyle.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2582F501FF0F71100D0FA6A /* Config.swift in Headers */ = {isa = PBXBuildFile; fileRef = B2582F251FF0F71100D0FA6A /* Config.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2582F511FF0F71100D0FA6A /* Reader.swift in Headers */ = {isa = PBXBuildFile; fileRef = B2582F231FF0F71100D0FA6A /* Reader.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2582F521FF0F71100D0FA6A /* Theme.swift in Headers */ = {isa = PBXBuildFile; fileRef = B2582F261FF0F71100D0FA6A /* Theme.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		B2BB81711FED02B600A3F857 /* QSHAppConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = B2BB816F1FED02B500A3F857 /* QSHAppConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -72,6 +76,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2BB81711FED02B600A3F857 /* QSHAppConfig.h in Headers */,
+				B2582F4F1FF0F71100D0FA6A /* AppStyle.swift in Headers */,
+				B2582F501FF0F71100D0FA6A /* Config.swift in Headers */,
+				B2582F511FF0F71100D0FA6A /* Reader.swift in Headers */,
+				B2582F521FF0F71100D0FA6A /* Theme.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
