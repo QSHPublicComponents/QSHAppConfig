@@ -1,0 +1,7 @@
+QSHAppConfig.xcodeproj/xcuserdata/
+QSHAppConfig.xcworkspace/
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+QSHAppConfig.xcodeproj/project.xcworkspace/xcuserdata/
